@@ -1,5 +1,5 @@
 
-# 3D Character Explorer
+# ConvoAI - 3D Character Explorer
 
 **Explore and interact with 3D characters, each with unique stories and actions, built using Three.js, React.js, and React Three Fiber.**
 
@@ -17,6 +17,21 @@
 - **Dynamic UI**:  
   - Menu to change background, reset chat, and log out.
   - Side menu to control character movements with various actions.
+
+
+## Sneak Peaks
+
+![Login](https://github.com/user-attachments/assets/dc5d526d-03f6-47c4-b169-31379bddc66e)
+
+![Home(Background 1)](https://github.com/user-attachments/assets/f3a102e1-ff78-4425-a5fb-d850c1726529)
+
+![Home(Background 2)](https://github.com/user-attachments/assets/98f23cd8-8451-4835-8a00-052b9f897f9f)
+
+![Chatbox](https://github.com/user-attachments/assets/fef588f0-ec2f-471d-bc85-e42118a16d30)
+
+![Video 1](https://github.com/user-attachments/assets/fef588f0-ec2f-471d-bc85-e42118a16d30)
+
+![Video 2](https://github.com/user-attachments/assets/b24478dc-3539-4c69-a585-152b73e287b5)
 
 
 ## Technologies Used
@@ -55,17 +70,6 @@
 - **Interacting with Characters**: Click on a character to start a conversation and learn their story.
 - **Background & UI Customization**: Use the menu to change the background, reset chat, or log out.
 - **Character Movements**: Use the side menu-bar to make characters perform different actions.
-
-
-## Sneak Peaks
-
-![Login](https://github.com/user-attachments/assets/dc5d526d-03f6-47c4-b169-31379bddc66e)
-
-![Home(Background 1)](https://github.com/user-attachments/assets/f3a102e1-ff78-4425-a5fb-d850c1726529)
-
-![Home(Background 2)](https://github.com/user-attachments/assets/98f23cd8-8451-4835-8a00-052b9f897f9f)
-
-![Chatbox](https://github.com/user-attachments/assets/fef588f0-ec2f-471d-bc85-e42118a16d30)
 
 
 ## Future Enhancements
