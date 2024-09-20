@@ -29,9 +29,9 @@
 
 ![Chatbox](https://github.com/user-attachments/assets/fef588f0-ec2f-471d-bc85-e42118a16d30)
 
-![Video 1](https://github.com/user-attachments/assets/b24478dc-3539-4c69-a585-152b73e287b5)
+![Demo Video 1](https://github.com/user-attachments/assets/b24478dc-3539-4c69-a585-152b73e287b5)
 
-![Video 2](https://github.com/user-attachments/assets/e614c95f-6160-4214-8c50-756e04ccd07e)
+![Demo Video 2](https://github.com/user-attachments/assets/e614c95f-6160-4214-8c50-756e04ccd07e)
 
 
 ## Technologies Used
