@@ -1,0 +1,56 @@
+{
+  "name": "talking-avatar",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@mantine/core": "^6.0.9",
+    "@mantine/form": "^6.0.9",
+    "@mantine/hooks": "^6.0.9",
+    "@mantine/styles": "^6.0.8",
+    "@react-three/drei": "^9.60.0",
+    "@react-three/fiber": "^8.12.0",
+    "@tabler/icons-react": "^2.17.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "convai-web-sdk": "file:../..",
+    "emotion": "^11.0.0",
+    "firebase": "^9.21.0",
+    "loadash": "^1.0.0",
+    "lodash.range": "^3.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-motion": "^0.5.2",
+    "react-scripts": "5.0.1",
+    "three": "^0.151.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.10.0"
+  }
+}
