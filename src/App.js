@@ -78,7 +78,7 @@ const App = () => {
       )}
 
       <Routes>
-        <Route exact path="/explorer" element={authState ? <ExplorerScene setMessages={setMessages} messages={messages} backgroundNo={backgroundNo} /> : <Navigate to="/login" />} />
+        <Route exact path="/" element={authState ? <ExplorerScene setMessages={setMessages} messages={messages} backgroundNo={backgroundNo} /> : <Navigate to="/login" />} />
         <Route exact path="/nancy" element={authState ? <NancyScene setMessages={setMessages} messages={messages} backgroundNo={backgroundNo} dance={dance} jump={jump} punch={punch} kick={kick} special={special} /> : <Navigate to="/login" />} />
         <Route exact path="/maria" element={authState ? <MariaWorrierScene setMessages={setMessages} messages={messages} backgroundNo={backgroundNo} dance={dance} jump={jump} punch={punch} kick={kick} special={special} /> : <Navigate to="/login" />} />
         <Route exact path="/login" element={authState ? <Navigate to="/maria" /> : <Login setAuthState={setAuthState} />} />
