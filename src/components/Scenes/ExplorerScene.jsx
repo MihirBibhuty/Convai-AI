@@ -2,20 +2,20 @@ import { useState, useEffect, useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Loader, Environment, OrbitControls, Html } from '@react-three/drei';
 import { ExplorerModel } from "../Characters/Explorer";
-import { ConvaiClient } from 'convai-web-sdk';
+// import { ConvaiClient } from 'convai-web-sdk';
 import { SETTINGS } from '../../constants';
 import { MariaWorrierModel } from '../Characters/MariaWorrier';
 import { NancyModel } from '../Characters/Nancy';
 
-const convaiClient = new ConvaiClient({
-    apiKey: SETTINGS['CONVAI-API-KEY'],
-    characterId: SETTINGS['CHARACTER-ID@explorer'],
-    enableAudio: true, // use false for text only.
-});
+// const convaiClient = new ConvaiClient({
+//     apiKey: SETTINGS['CONVAI-API-KEY'],
+//     characterId: SETTINGS['CHARACTER-ID@explorer'],
+//     enableAudio: true, // use false for text only.
+// });
 
 
 export default function ExplorerScene({ setMessages, messages, backgroundNo, dance, jump, punch, kick, special }) {
-    const [userText, setUserText] = useState("Press & Hold Space to Talk!");
+    const [userText, setUserText] = useState("Press & Hold Spacebar to Talk!");
     const finalizedUserText = useRef();
     const [npcText, setNpcText] = useState("");
     const npcTextRef = useRef();
@@ -26,54 +26,54 @@ export default function ExplorerScene({ setMessages, messages, backgroundNo, dan
     const [conv, setConv] = useState({ user: "", machine: "" });
     const [background, setBackground] = useState("snowy_forest.hdr");
 
-    convaiClient.setResponseCallback((response) => {
-        if (response.hasUserQuery()) {
-            var transcript = response.getUserQuery();
-            var isFinal = transcript.getIsFinal();
-            if (isFinal) {
-                finalizedUserText.current += " " + transcript.getTextData();
-                transcript = "";
-            }
-            if (transcript) {
-                setUserText(finalizedUserText.current + transcript.getTextData());
-            } else {
-                setUserText(finalizedUserText.current);
-            }
-        }
-        if (response.hasAudioResponse()) {
-            var audioResponse = response?.getAudioResponse();
-            npcTextRef.current += " " + audioResponse.getTextData();
-            setNpcText(npcTextRef.current);
-        }
-    });
+    // convaiClient.setResponseCallback((response) => {
+    //     if (response.hasUserQuery()) {
+    //         var transcript = response.getUserQuery();
+    //         var isFinal = transcript.getIsFinal();
+    //         if (isFinal) {
+    //             finalizedUserText.current += " " + transcript.getTextData();
+    //             transcript = "";
+    //         }
+    //         if (transcript) {
+    //             setUserText(finalizedUserText.current + transcript.getTextData());
+    //         } else {
+    //             setUserText(finalizedUserText.current);
+    //         }
+    //     }
+    //     if (response.hasAudioResponse()) {
+    //         var audioResponse = response?.getAudioResponse();
+    //         npcTextRef.current += " " + audioResponse.getTextData();
+    //         setNpcText(npcTextRef.current);
+    //     }
+    // });
 
-    convaiClient.onAudioPlay(() => {
-        setIsTalking(true);
-    });
+    // convaiClient.onAudioPlay(() => {
+    //     setIsTalking(true);
+    // });
 
-    convaiClient.onAudioStop(() => {
-        setIsTalking(false);
-    });
+    // convaiClient.onAudioStop(() => {
+    //     setIsTalking(false);
+    // });
 
 
 
-    function handleSpacebarPress(event) {
-        if (event.keyCode === 32 && !keyPressed) {
-            setKeyPressed(true);
-            finalizedUserText.current = "";
-            npcTextRef.current = "";
-            setUserText("");
-            setNpcText("");
-            convaiClient.startAudioChunk();
-        }
-    }
+    // function handleSpacebarPress(event) {
+    //     if (event.keyCode === 32 && !keyPressed) {
+    //         setKeyPressed(true);
+    //         finalizedUserText.current = "";
+    //         npcTextRef.current = "";
+    //         setUserText("");
+    //         setNpcText("");
+    //         convaiClient.startAudioChunk();
+    //     }
+    // }
 
-    function handleSpacebarRelease(event) {
-        if (event.keyCode === 32 && keyPressed) {
-            setKeyPressed(false);
-            convaiClient.endAudioChunk();
-        }
-    }
+    // function handleSpacebarRelease(event) {
+    //     if (event.keyCode === 32 && keyPressed) {
+    //         setKeyPressed(false);
+    //         convaiClient.endAudioChunk();
+    //     }
+    // }
 
     // useEffect(() => {
     //     window.addEventListener('keydown', handleSpacebarPress);
