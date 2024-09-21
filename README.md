@@ -3,6 +3,9 @@
 
 **Explore and interact with 3D characters, each with unique stories and actions, built using Three.js, React.js, and React Three Fiber.**
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dc5d526d-03f6-47c4-b169-31379bddc66e" alt="Video 1" width="400" />
+</div>
 
 ## Features
 
@@ -21,7 +24,11 @@
 
 ## Sneak Peaks
 
-![Login](https://github.com/user-attachments/assets/dc5d526d-03f6-47c4-b169-31379bddc66e)
+<!-- ![Login](https://github.com/user-attachments/assets/dc5d526d-03f6-47c4-b169-31379bddc66e) -->
+
+[Demo Video 1](https://github.com/user-attachments/assets/b24478dc-3539-4c69-a585-152b73e287b5)
+
+[Demo Video 2](https://github.com/user-attachments/assets/e614c95f-6160-4214-8c50-756e04ccd07e)
 
 ![Home(Background 1)](https://github.com/user-attachments/assets/f3a102e1-ff78-4425-a5fb-d850c1726529)
 
@@ -29,10 +36,6 @@
 
 ![Chatbox](https://github.com/user-attachments/assets/fef588f0-ec2f-471d-bc85-e42118a16d30)
 
-
-[Demo Video 1](https://github.com/user-attachments/assets/b24478dc-3539-4c69-a585-152b73e287b5)
-
-[Demo Video 2](https://github.com/user-attachments/assets/e614c95f-6160-4214-8c50-756e04ccd07e)
 
 
 ## Technologies Used
