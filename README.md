@@ -32,13 +32,13 @@
 
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/user-attachments/assets/f3a102e1-ff78-4425-a5fb-d850c1726529" alt="Image 1" />
-  <img src="https://github.com/user-attachments/assets/98f23cd8-8451-4835-8a00-052b9f897f9f" alt="Image 2" />
+  <img src="https://github.com/user-attachments/assets/f3a102e1-ff78-4425-a5fb-d850c1726529" alt="Image 1" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/98f23cd8-8451-4835-8a00-052b9f897f9f" alt="Image 2" width="45%"/>
 </div>
 
 <div style="display: flex; justify-content: space-around; margin-top: 20px;">
-  <img src="https://github.com/user-attachments/assets/043a00f1-fc14-4d59-8266-b9229847c7a7" alt="Image 3" />
-  <img src="https://github.com/user-attachments/assets/fef588f0-ec2f-471d-bc85-e42118a16d30" alt="Image 4" />
+  <img src="https://github.com/user-attachments/assets/043a00f1-fc14-4d59-8266-b9229847c7a7" alt="Image 3" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/fef588f0-ec2f-471d-bc85-e42118a16d30" alt="Image 4" width="45%"/>
 </div>
 
 
