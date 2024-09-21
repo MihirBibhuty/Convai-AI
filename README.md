@@ -29,7 +29,8 @@
 
 ![Chatbox](https://github.com/user-attachments/assets/fef588f0-ec2f-471d-bc85-e42118a16d30)
 
-![Demo Video 1](https://github.com/user-attachments/assets/b24478dc-3539-4c69-a585-152b73e287b5)
+
+![Demo Video 1](https://github-production-user-asset-6210df.s3.amazonaws.com/77892621/369572607-b24478dc-3539-4c69-a585-152b73e287b5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240921%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240921T052940Z&X-Amz-Expires=300&X-Amz-Signature=ded3b1bca768ded66e1bd8dd691bbbb95b7f338fd266bc784b53e9c6afb5f534&X-Amz-SignedHeaders=host)
 
 ![Demo Video 2](https://github.com/user-attachments/assets/e614c95f-6160-4214-8c50-756e04ccd07e)
 
